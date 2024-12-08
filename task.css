@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.api-data {
+  margin-top: 20px;
+  text-align: left;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.api-data p {
+  font-size: 1em;
+  color: #333;
+}
+
+.api-data ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.api-data li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
